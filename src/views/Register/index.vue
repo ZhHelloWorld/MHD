@@ -1,11 +1,12 @@
-
 <template>
-  <router-view></router-view>
+  <div class="register">
+    <h1>注册</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Register'
 }
 </script>
 

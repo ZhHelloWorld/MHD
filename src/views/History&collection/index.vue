@@ -1,11 +1,12 @@
-
 <template>
-  <router-view></router-view>
+  <div class="H-C">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'HC'
 }
 </script>
 

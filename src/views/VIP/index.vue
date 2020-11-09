@@ -1,13 +1,15 @@
-
 <template>
-  <router-view></router-view>
+  <div class="vip">
+      <h1>VIP</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'VIP'
 }
 </script>
 
 <style>
+
 </style>

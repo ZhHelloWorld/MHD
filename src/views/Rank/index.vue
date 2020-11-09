@@ -1,11 +1,12 @@
-
 <template>
-  <router-view></router-view>
+  <div class="rank">
+    <h1>排行榜</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Rank'
 }
 </script>
 
