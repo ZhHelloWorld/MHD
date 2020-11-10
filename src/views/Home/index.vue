@@ -11,12 +11,32 @@
         <div class="header-search"></div>
       </a>
     </header>
+    <Swiper @change = 'change' a>
+      <SwiperItem>1</SwiperItem>
+      <SwiperItem>2</SwiperItem>
+      <SwiperItem>3</SwiperItem>
+    </Swiper>
+    <Swiper @change = 'change'>
+      <SwiperItem>1</SwiperItem>
+      <SwiperItem>2</SwiperItem>
+      <SwiperItem>3</SwiperItem>
+    </Swiper>
   </div>
 </template>
 
 <script>
+import { Swiper, SwiperItem } from '@/components/Swiper'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Swiper,
+    SwiperItem
+  },
+  methods: {
+    change (payload) {
+      console.log('index', payload)
+    }
+  }
 }
 </script>
 
