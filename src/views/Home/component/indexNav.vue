@@ -1,6 +1,6 @@
 <template>
 <nav class="index-nav">
-    <a href="javascript:;">
+    <a href="#/classify">
       <div class="nav-item">
         <i class="iconfont icon-icon_addmessage"></i>
         <p class="nav-text font-24">分类</p>
