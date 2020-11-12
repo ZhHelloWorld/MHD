@@ -6,7 +6,7 @@
         <p class="nav-text font-24">分类</p>
       </div>
     </a>
-    <a href="javascript:;">
+    <a href="#/rank">
       <div class="nav-item">
         <i class="iconfont icon-icon_addresslist"></i>
         <p class="nav-text font-24">排行</p>
