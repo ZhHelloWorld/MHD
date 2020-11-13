@@ -1,8 +1,10 @@
 <template>
   <div class="rank">
     <normal-header title="排行"></normal-header>
+    <div class="rank-main">
     <header-type :types = 'types' @click = 'onchange'></header-type>
-    <cartoon-list :list = 'list' ></cartoon-list>
+    <cartoon-list :list = 'list' :isRank = 'true'></cartoon-list>
+    </div>
   </div>
 </template>
 
@@ -69,5 +71,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang = 'scss' scoped>
+.rank{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.rank-main{
+  flex: 1;
+  overflow-y: auto;
+}
 </style>

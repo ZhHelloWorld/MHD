@@ -12,7 +12,7 @@
         <p class="nav-text font-24">排行</p>
       </div>
     </a>
-    <a href="javascript:;">
+    <a href="#/vip">
       <div class="nav-item">
         <i class="iconfont icon-icon_addressbook"></i>
         <p class="nav-text font-24">VIP专区</p>
